@@ -57,7 +57,7 @@ const Contact = () => {
           />
         </div>
         <div>
-          <label>Message</label>
+          <label>Message Us</label>
           <input
             type="text"
             value={message}
