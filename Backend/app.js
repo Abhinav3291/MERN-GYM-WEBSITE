@@ -22,13 +22,11 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.post('/send/mail', (req, res) => {
-  console.log('Mail endpoint hit:', req.body);
-  res.json({ message: 'Success' });
-});
+
 
 router.post("/send/mail", async (req, res, next) => {
   const { name, email, message } = req.body;
+    console.log('Mail endpoint hit:', req.body);
   if (!name || !email || !message) {
     return next(
       res.status(400).json({
