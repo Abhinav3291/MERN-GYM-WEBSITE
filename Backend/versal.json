@@ -1,16 +1,4 @@
-{
-  "headers": [
-    {
-      "source": "/send/mail",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://tech-gym-fro.vercel.app"
-        }
-      ]
-    }
-  ]
-}
+
 {
   "version": 2,
   "builds": [
