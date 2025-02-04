@@ -1,15 +1,13 @@
 {
-  "version": 2,
-  "builds": [
+  "headers": [
     {
-      "src": "app.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app.js"
+      "source": "/send/mail",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://tech-gym-fro.vercel.app"
+        }
+      ]
     }
   ]
 }
