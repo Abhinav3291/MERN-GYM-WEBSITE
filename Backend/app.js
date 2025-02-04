@@ -10,7 +10,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ["https://deploy-mern-1whq.versal.app"],
+    origin: ["https://tech-gym.vercel.app/"],
     methods: ["POST"],
     credentials: true,
   })
