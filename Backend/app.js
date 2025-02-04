@@ -8,9 +8,10 @@ const router = express.Router();
 
 config({ path: "./config/config.env" });
 
-app.use(cors({ origin: "https://tech-gym-fro.vercel.app", credentials: true }));
-
-
+app.options((*),cors({
+origin: "https://tech-gym-fro.vercel.app", 
+credentials: true })
+);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
