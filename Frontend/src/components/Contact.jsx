@@ -41,7 +41,7 @@ const Contact = () => {
       <form onSubmit={sendMail}>
         <h1>CONTACT US</h1>
         <div>
-          <label>Name</label>
+          <label>Name Please</label>
           <input
             type="text"
             value={name}
