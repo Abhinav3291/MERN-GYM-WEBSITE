@@ -10,7 +10,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ["https://tech-gym.vercel.app/"],
+    origin: ["https://tech-gym-fro.vercel.app/"],
     methods: ["POST"],
     credentials: true,
   })
