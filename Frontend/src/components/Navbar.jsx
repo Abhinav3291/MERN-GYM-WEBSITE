@@ -2,7 +2,7 @@
 const Navbar=()=>{
     return(
         <header>
-            <p>BILLU BARBER FITNESS</p>
+            <p>Tech-GYM</p>
         </header>
     )
 }
