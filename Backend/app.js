@@ -10,7 +10,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://deploy-mern-1whq.versal.app"],
     methods: ["POST"],
     credentials: true,
   })
